@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://bitbucket.org/lombardpress/lombardpress-schema/raw/master/LombardPressODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+      	<title>Librum I, Questio 23</title>
+        <author>John Mirecourt</author>
+        <editor></editor>
+      	<respStmt>
+      		<name xml:id="JW">Jeffrey C. Witt</name>
+      		<resp>TEI encoder</resp>
+      	</respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+        	<title>Librum I, Questio 23</title>
+          <date when="2016-05-27">May 27, 2016</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Lombard Press</publisher>
+        <pubPlace>Baltimore, MD</pubPlace>
+        <availability status="free">
+          <p>Published under a <ref target="http://creativecommons.org/licenses/by-nc-nd/3.0/">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</ref></p>
+        </availability>
+        <date when="2016-05-27">May 27, 2016</date>  
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+        	<witness xml:id="P" n="penn">Witness to go here</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2015-07-18" who="#JW" status="draft" n="0.0.0-dev">
+          <p>Created file for the first time.</p>
+          <note type="status">
+            <note type="collobaration">Yes</note>
+            <note type="validating-schema">lbp-0.0.1</note>
+            <note type="transcription-type">critical</note>
+          </note>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  
+  <text xml:lang="la">
+    <front>
+      <div xml:id="includeList">
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/workscited.xml" xpointer="worksCited"/>
+        <xi:include href="https://bitbucket.org/lombardpress/lombardpress-lists/raw/master/Prosopography.xml" xpointer="prosopography"/>
+      </div>
+    	<div xml:id="starts-on">
+    		<!-- /C57va/ /T55va/ -->
+    	</div>
+    </front>
+  	<body>
+  		<div xml:id="jm-l1q23">
+  			<head>Librum I, Questio 23</head>
+  			<head type="questionTitle">Utrum in qualibet creatura reperiatur vestigium et ymago trinitatis.</head>
+  			
+  			
+  			<p>Utrum in qualibet creatura reperiatur vestigium et ymago trinitatis.</p>
+  			
+  			<p>{2} Arguitur primo quod non vestigium, quia in illo quod est vestigium trinitatis inveniuntur tria, sicut in trinitate sunt tres persone, sed aliqua est creatura simplex quia aliter esset processus in infinitum, igitur in ista (1) creatura nulla pluralitas invenitur (2), et per consequens in ipsa non est vestigium trinitatis; quod non ymago, quia, ut ponitur, hoc esset (3) in mente, sed hoc (4) non, igitur.</p>
+  			<p>{2.1} Minor probatur per Augustinum 14 De trinitate, capitulo 7, de parvis, ubi dicit iuxta illud psalmi verumptamen in ymagine pertransit homo, quia hec ymago ita deformis et obscura facta est ut pene nulla sit; ipsa autem mens humana secundum suam substantiam integra manet, igitur secundum substantiam non est ymago trinitatis.</p>
+  			<p>{3} Ad oppositum de vestigio dicit Augustinus, 6 De trinitate, capitulo ultimo: oportet ut creatorem (5) per ea que facta sunt intellectu conspicientes trinitatem intelligamus, cuius in creatura quomodo dignum est apparet vestigium (6); de ymagine, Genesi primo: "faciamus hominem ad ymaginem et similitudinem nostram" et Augustinus, Super Genesim ad litteram, capitulo 23 de parvis, concludit quod in mente factus est homo ad ymaginem Dei et eiusdem opinionis est Magister, libro 2, distinctione 26.</p>
+  			
+  			<p>{4} Respondendo ad questionem pono conclusiones. Prima est: in qualibet creatura reperitur vestigium trinitatis, ad cuius evidentiam primo pono propositiones.</p>
+  			<p>{4.1} Et est prima: vestigium dicitur ab illo cuius est ymago, quia idem non est vestigium et ymago (7) sui.</p>
+  			<p>{4.2} Secunda: vestigium ducit in rememorativam notitiam illius cuius est vestigium mediante sua notitia, et similiter ymago cuius est ymago; patet, si aliquis prius viderit (8) Herculem et retineat habitualem notitiam de Hercule, vel per studium vel auditum didicerit que fuerunt proprietates eius, et postea videat statuam sibi similem in accidentibus exterioribus, virtute visionis statue potuit de Hercule recordari, etiam posito quod (9) numquam prius viderit (10) illam statuam. Similiter, si aliquis prius viderit (11) bovem et figuram pedis /T55vb/ eius, et videat vestigium pedis recordabitur de bove.</p>
+  			<p>{4.3} Tertia: vestigium numquam ducit in notitiam primam et propriam et incomplexam illius cuius est vestigium, nec ymago cuius est ymago, unde, si aliquis nullam penitus habeat cognitionem habitualem de Hercule, et videat statuam Herculis, non plus cogitabit de Hercule quam de Sorte. Similiter, si aliquis numquam habuisset aliquam notitiam propriam de bove, non plus recordaretur de bove quam de asino.</p>
+  			<p>{4.4} Quarta, quod non oportet quod vestigium causetur ab illo cuius est vestigium vel a simili sibi (12) in specie, nec oportet quod ymago alicuius causetur (13) ab illo cuius est ymago, ex quo patet quod, si causaretur figura aliunde quam a pede bovis similis figure que causaretur a pede bovis, adhuc esset (14) vestigium, tum quia (15) notitia eius duceret in rememorativam notitiam de bove, tum quia non apparet quin ita bene debeat dici vestigium bovis sicut si causaretur ab amputato pede (16), tum /C57vb/ quia non oportet secundum tenentes oppositum quod causetur ab eodem in numero sed sufficit quod in specie et certe non plus dici deberet figura impressa a (17) pede A bovis vestigium B bovis quam si causaretur aliunde similis figura.</p>
+  			<p>{4.5} Quinta: vestigium non solum ducit in rememorativam notitiam illius cuius est vestigium, sed etiam notitia sua mediante facit assentire alicui complexo vero vel falso de re cuius est, utpote (18) "bos transivit", et similiter ymago Herculis facit credere quod talis erat Hercules, que saltem est notitia recordativa.</p>
+  			<p>{4.6} Sexta: ymago est expressior similitudo et expressius representatum illius cuius est ymago, quam vestigium illius cuius est vestigium.</p>
+  			<p>{5} Hiis premissis probatur prima conclusio sic: illud potest esse vestigium alicuius vel in illo potest esse vestigium alicuius, cuius notitia ducit mediante sua notitia in recordativam cognitionem illius habitualiter noti, sic est de quacumque creatura respectu trinitatis, igitur.</p>
+  			<p>{5.1} Minor patet, nam quelibet est aliquid vel in illa est aliquid, cuius notitia (19) ducit in recordativam notitiam alicuius appropriati patri, alicuius (20) appropriati filio et alicuius appropriati spiritui sancto, et hoc fit aliquotiens per unicam rem, aliquotiens per diversas res, unde Augustinus, 6 De trinitate, capitulo ultimo, assignans quomodo in creatura reperitur vestigium trinitatis dicit: "omnia que arte divina facta sunt et unitatem ostendunt quamdam in se et speciem et ordinem, quidquid enim horum et unum (21) aliquid est sicut sunt nature corporum et ingenia animarum"; hoc dicit pro substantia qua (22) suis accidentibus substat, si (23) pro diversis partibus, scilicet pro duabus aliis partibus vestigii (24) diversis accidentibus subdit (25) et aliqua specie formatur supper[?] substantia, sicut sunt figure et qualitates corporum atque doctrine vel artes animarum et hoc quoad secundam (26) partem. Quoad tertiam partem, sequitur et aliquem ordinem petit sicut sunt pondera vel collationes corporum et amores et delectationes (27) animarum, ecce quod in illa assignatione partes vestigii realiter distinguuntur; sed hec recordatio fit quandoque per eamdem cuius diverse notitie ducunt in recordationem alicuius quod est appropriate filius et alicuius quod est appropriate spiritus sanctus, igitur in qualibet /T56ra/ creatura reperitur vestigium trinitatis.</p>
+  			<p>{6} Contra conclusionem arguitur primo sic: vestigium in hoc ab ymagine distinguitur, quod ymago est totius et vestigium partis, saltem primo ut patet de vestigio pedis, sed in Deo non est pars, igitur nihil est vestigium illius.</p>
+  			<p>{7} Secundo, quia vestigium ducit in cognitionem illius cuius est, sed nihil quod sit in creatura ducit in notitiam sive cognitionem trinitatis, igitur.</p>
+  			<p>{8} Ad primum dico, quod una creatura tripliciter solet alterius dici vestigium.</p>
+  			<p>{8.1} Uno modo large, et sic vestigium est (28) effectus derelictus ex aliqua causa cuius notitia ducit in rememorationem ipsius, et ex communi lege ducens in adhesionem alicuius veritatis enuntiantis rem fuisse vel talem fuisse et huius<supplied>modi</supplied>; et isto modo fumus ex igne derelictus vel combustio vel adustio derelicta dicitur vestigium ignis, similiter odor aliquando derelictus ex animali transeunte dicitur vestigium animalis illius (29), et illo modo capiendo vestigium quelibet creatura est vestigium Dei.</p>
+  			<p>	{8.2} Secundo modo dicitur vestigium magis stricte, pro impressione alicuius in aliquid sibi cedens remanente in (30) absentia eius, et isto (31) modo dicimus quod in cera relinquitur vestigium sigilli.</p>
+  			<p>	{8.3} Tertio modo accipitur strictissime vestigium (32), pro impressione (33) partis alicuius totius in aliquid sibi cedens (34) derelicta, in absentia eius ducens in recordationem primo (35) partis et ex consequenti totius.</p>
+  			<p>	{9} Ex hiis (36) ad argumentum dico, quod, licet vestigium tertio modo captum sit partis et sic distinguatur ab ymagine, non tamen propter hoc quodlibet vestigium distinguitur (37) ab ymagine, ut patet /C58ra/ per predictam distinctionem.</p>
+  			<p>	{10} Ad secundum dico, quod aliquid ducere in notitiam alterius potest intelligi dupliciter.</p>
+  				<p>{10.1} Uno modo, quod mediante notitia sua ducat in notitiam alterius.</p>
+  				<p>{10.2} Alio modo, quod immediate sine notitia sui (38), sicut intellectus ducit tamquam causa in notitiam cuiuslibet intelligibilis. Secundo modo capiendo ducere in notitiam, non quelibet creatura ducit in cognitionem trinitatis sed solus intellectus.</p>
+  			
+  				<p>{11} Item potest intelligi dupliciter, quod aliquid ducat in notitiam alterius mediante notitia sua.</p>
+  				<p>{11.1} Uno modo, quod ducat in notitiam primam et incomplexam, et sic una res numquam ducit in notitiam alterius ut alias dictum est, nec aliqua creatura sic ducit in notitiam trinitatis.</p>
+  				<p>{11.2} Alio modo, quod ducat in rememorationem sive in rememorativam notitiam alicuius habitualiter noti, et sic creatura potest in notitiam ducere (39) trinitatis, et sic etiam intelligitur vestigium ducere in notitiam illius cuius est vestigium.</p>
+  			
+  				<p>{12} Secunda conclusio est ista: in mente rationali reperitur ymago trinitatis.</p>
+  				<p>{13} Probatur primo, quia in illo est ymago vel illud est ymago trinitatis, cuius notitia ducit in notitiam ita expressam de trinitate, sicut ymago in notitiam illius cuius est ymago, sed talis est mens rationalis ut videbitur, igitur.</p>
+  				<p>{14} Secundo patet per Augustinum hec conclusio, 14 De trinitate, capitulo 15 de parvis, ubi ait quod prius mens in se ipsa consideranda antequam sit particeps Dei et in ea recipienda est ymago eius; diximus enim, amissa Dei participatione, abolitam atque deformem Dei (40) tamen ymaginem Dei permanere, eo quippe ymago eius est quo capax eius particeps est esse pater.</p>
+  				<p>{15} Contra conclusionem istam primo sic, quia, si in mente foret ymago trinitatis, aut igitur ratione sue (41) substantie, et hoc non quia illa non representat distinctionem personarum (42), /T56rb/ aut ratione actuum quos causat et recipit, et hoc non quia illi non sunt consubstantiales. Item, quia secundum Augustinum 14 (43) De trinitate, capitulo 6 de parvis, ymago creatoris immortaliter insercta[?] est anime hominis rationali seu (44) intellectuali, sed actus non immortaliter.</p>
+  				<p>{16} Secundo arguo, quia, si in mente foret ymago trinitatis, mens magis esset ymago Dei quam homo, quia unumquodque propter quod et illud magis.</p>
+  				<p>{16.1} Consequens falsum, quia (45) homo magis est similis Deo quam mens et experimur ab eo, igitur magis est eius ymago.</p>
+  				<p>{16.1.1} Hec consequentia patet per diffinitionem ymaginis, quam ponit Augustinus expresse, 83 questionum, questio 78, ubi dicit quod ymago est expressa similitudo illius cuius est ymago.</p>
+  				<p>{16.1.2} Sed assumptum probatur, quia homo est ens nobilius quam mens hominis, igitur est magis similis Deo.</p>
+  				<p>{16.1.2.1} Consequentia patet per Anselmum, Monologio, capitulo 81 et 66, ubi dicit (46) Anselmus quod inter creata Deo constat esse similius illud necesse est ratione (47) prestantius.</p>
+  				<p>{16.1.2.2} Assumptum probatur, quia primo Ethicorum, capitulo 8, dicit Philosophus quod felicitas connumerata cum minimo bonorum est eligibilior quam ipsa felicitas, et addit quod semper maius bonum est (48) eligibilius, ergo pari ratione mens humana cum quocumque bono est melior quam solitaria, igitur compositum ex ipsa mente et corpore, scilicet homo, nobilius est sola mente.</p>
+  				<p>{17} Ad primum dico tres propositiones.</p>
+  				<p>{17.1} Prima est: nulla tria creata sunt (49) in mente nostra nec in aliqua creatura alia que fiunt una res, et ideo in creatura numquam reperitur ymago trinitatis sic perfecta quod sint in creatura tria aliqua, quorum (50) secundum sit (51) a primo et tertium sit a (52) duobus consubstantialitate, id est reali ydemptitate (53) illorum (54) trium.</p>
+  				<p>{17.2} Secunda: in mente sic est ymago trinitatis, quod ipsa potest per modum nature producere seu gignere unum verbum vel cognitionem de obiecto, eo modo seu consimili quo pater generat filium, et ideo dicitur memoria quia retinet habitum /C58rb/ de obiecto, et dicitur intellectus quia potest producere verbum predictum; ipsa etiam cum verbo ab ipsa genito (55) possunt producere unum amorem respectu illius obiecti, eo modo vel consimili quo pater et filius spirant (56) spiritum sanctum, et sic beatus Augustinus assignat ymaginem trinitatis non in tribus rebus sed in una re que potest intelligere, velle et memorari et ideo est intellectus, memoria et voluntas et in illa (57) ymagine non est aliqua trinitas in actu sed in potentia est consubstantialitas.</p>
+  				<p>{17.3} Tertia est: in mente et in duobus actibus ab ipsa productis assignatur magis expresse trinitatis ymago, scilicet in (58) mente, notitia et amore, quia mens gignit notitiam (59), notitia et mens (60) producunt amorem et in illa ymagine est actualis rerum trinitas, sed non consubstantialitas nisi pro quanto illi duorum actus in eadem substantia recipiuntur (61).</p>
+  				<p>{18} Ex hiis ad argumentum, quando queritur aut ratione sue substantie aut ratione suorum actuum, dico quod ratione utriusque tamen diversimode; et cum dicitur quod non ratione substantie, quia illa non representat distinctionem personarum, dico quod esto quod intellectus, memoria et voluntas sint (62) ipsa substantia anime et per consequens inter intellectum et memoriam et voluntatem est consubstantialitas, /T57va/ tamen illa (63) eadem substantia diversos actus producere potest conformiter generationi (64) filii et processioni spiritus sancti, et hoc sufficit ad hoc quod ipsa substantia anime dicatur ymago trinitatis; quando dicitur quod non ratione actuum, quia illi non sunt consubstantiales, dico quod nec hoc oportet sed sufficit quod in eadem substantia recipiantur; cum dicitur ultra quod secundum Augustinum ymago trinitatis immortaliter etcetera, dico quod beatus Augustinus intelligit quod substantia anime que est immortalis immortaliter est intellectus, voluntas et memoria, hoc est (65) immortaliter potest intelligere, memorari et velle et ista ymago trinitatis que assignatur in substantia anime est immortalis.</p>
+  				<p>{19} Ad secundum dico quod, si li "magis" intelligatur (66) imperfectiori (67) modo quia per se, concedo quod mens magis est ymago Dei quam homo quia per se homo aut per animam suam (68).</p>
+  				<p>{19.1} Et cum probatur falsitas consequentis, quia homo est similis Deo etcetera, dico primo quod aliquid esse magis simile (69) potest intelligi dupliciter: uno modo in essendo, alio modo in imitando (70) vel representando.</p>
+  				<p>{19.1.1} Primo modo homo similior est Deo quam eius anima, quia est perfectior ut probatur, sed non oportet quod illud quod est sic similius sit magis ymago.</p>
+  				<p>{19.1.2} Secundo modo mens hominis est magis similis trinitati, quia per se est talis res que potest intelligere, velle et memorari, et isto modo illud quod est similius trinitati est perfectius eius ymago sed forte angelus perfectius quam anima intellectiva.</p>
+  				<p>{20} Tertia conclusio est ista: in sola creatura rationali reperitur ymago trinitatis.</p>
+  				<p>{21} Probatur primo per Augustinum, 12 De trinitate, capitulo 4: "in eo solo -inquit- quod (71) ad contemplationem eternorum non solum trinitas sed etiam ymago Dei, in eo aut<supplied>em</supplied> quod determinatum est in actione temporalium etiam si trinitas possit non tamen ymago Dei invenire potest".</p>
+  				<p>{22} Secundo probatur per Augustinum, 12 De trinitate, capitulo 17 de parvis: "nulli -inquit- dubium est non secundum corpus neque secundum quamlibet eius partem, sed secundum mentem rationalem ubi potest esse cognitio (72) Dei, factum hominem (73) ad ymaginem eius qui creavit illum".</p>
+  					<p>{23} Contra conclusionem arguitur primo sic, quia in illo et in quolibet tali potest et debet assignari ymago trinitatis in quo conformiter reperitur originatio qualis est in trinitate ita bene sicut in creatura rationali, sed sic est de aliqua creatura irrationali.</p>
+  					<p>{23.1} Probatur, quia ita bene anima sensitiva cum obiecto producit cognitionem /C58va/ sensitivam et ipsa cum cognitione sensitiva producit appetitum sensitivum, sicut anima intellectiva producit verbum et ipsa cum verbo producit amorem. Item ita bene anima sensitiva est cognitiva, appetitiva et memorativa sicut intellectiva anima, igitur non solum in creatura rationali sed in creatura irrationali reperitur trinitatis ymago.</p>
+  					<p>{24} Secundo arguitur (74) sic: in aliqua creatura rationali non reperitur ymago trinitatis, igitur in nulla, quia non est maior ratio de una creatura rationali quam de alia, et per consequens non in sola creatura rationali etcetera.</p>
+  					<p>{24.1} Antecedens patet per beatum Augustinum, capitulo 23, 12 De trinitate, ubi dicit quod non propterea est (75) trinitas mentis ymago Dei quia sui meminit mens et intelligit ac diligit, sed quia intelligit, meminit ac diligit sive amat eum a quo facta est, sed certum est quod /T56vb/ non quelibet creatura rationalis hoc facit, immo oppositum odit Deum quandoque sicut in dormiendo non habet aliquem istorum actuum, igitur est aliqua rationalis in qua non reperitur ymago trinitatis.</p>
+  					<p>{25} Ad primum dico, quod (76) in creatura rationali reperitur ymago trinitatis, quia illa sola capax Dei est particeps (77) eius esse potest secundum Augustinum, et ratio huius est quia (78) creatura dicitur ymago alterius creature propter conformitatem alicuius accidentis vel multorum accidentium in illo cuius est ymago et in ymagine ratione cuius similitudinis ducit in recordationem alterius, et ideo illa creatura maxime debet dici ymago Dei que habet (79) aliqua et plura accidentia similia proprietatibus Dei; huius<supplied>modi</supplied> (80) est creatura rationalis, nam omnia predicata que possunt dici de Deo et de creatura irrationali saltem de substantia, utpote ens (81), unum et huius<supplied>modi</supplied>, possunt dici de Deo et de creatura rationali, sed non e converso, quia multa predicata dicuntur de Deo et de creatura rationali, utpote intellectus, voluntas, memoria, misericors, patiens, iustus, sapiens et huius<supplied>modi</supplied> que non dicuntur de creatura irrationali, et ideo si connotata istorum, scilicet volitio, cognitio, memoria, misericordia et huius<supplied>modi</supplied> essent accidentia in Deo sicut in creatura, creatura rationalis communicaret in pluribus accidentibus cum Deo quam quecumque creatura irrationalis, et cum hoc in anima reperitur origo et ordo talis qualis in trinitate personarum, ut dictum est; ideo creatura rationalis melius dicitur ymago Dei quam quecumque creatura irrationalis, unde ad argumentum (82) cum dicitur "in illo potest" etcetera, dico quod non est verum, nisi sit capax Dei per memoriam, voluntatem et intellectum quod non est verum de creatura irrationali et cum hoc nisi in multis accidentibus communicat cum Deo, sicut dictum est.</p>
+  						<p>{26} Ad secundum dico, quod creaturam rationalem esse ad ymaginem Dei potest intelligi dupliciter.</p>
+  						<p>{26.1} Uno modo (83), quia potest intelligere, velle et memorari et talis ymago est creatura rationalis quelibet sive viatrix sive beata sive dampnata sive vigilet sive dormiat (84).</p>
+  						<p>{26.2} Alio modo, quia actualiter intelligit, vult et memoratur et hoc tripliciter.</p>
+  						<p>{26.2.1} Uno modo, quia (85) intelligit, vult et meminit secundum exigentiam status innocentie, et talis ymago in homine viatore est perdita.</p>
+  						<p>{26.2.2} Alio modo, quia intelligit, vult et meminit, sed non sicut deberet, sed talis ymago est deformis et talis est in peccatoribus et dampnatis.</p>
+  						<p>{26.2.3} Alio modo quia intelligit, vult et meminit sicut debet, et hoc est quando intelligit etcetera Deum vel creaturam propter Deum et talis est in beatis et in bonis dum actu merentur et quia sic esse ymaginem Dei est esse perfectius ad ymaginem quam (86) aliis modis, ideo hec ymago dicitur perfectior ex quibus apparet quomodo intelligit Augustinus quando dicit ymaginem trinitatis in anima esse abolitam vel deformatam vel perfectam.</p>
+  						<p>{27} Ex hiis ad argumentum, capiendo ymaginem primo modo, nego antecedens; ad auctoritatem /C58vb/ Augustini patet quod capit ymaginem ultimo modo, ideo non concludit argumentum (87).</p>
+  						<p>{28} Quarta conclusio est ista: intellectus, memoria et voluntas tam in viatore quam in beato sic adequantur quod quidquid potest intellectus intelligere potest (88) voluntas velle et memoria potest de illo (89) memorari et e converso.</p>
+  						<p>{29} Ista conclusio videtur deduci per Augustinum, 4 De trinitate, capitulo 28, et allegat Magister in littera, distinctione 3, unde deducit Augustinus quod quidquid /T57ra/ memoria meminit intellectus intelligere potest et voluntas velle et quidquid voluntas vult potest intellectus intelligere et memoria memorari.</p>
+  						<p>{30} Secundo sic, quia, si non, sit illud A; contra, tunc A vel est Deus vel creatura et per consequens res bona, igitur potest diligi; si diligi, igitur cognosci et si actualiter cognosci igitur cognitione cessante, nisi aliud sit impedimentum, potest (90) memoria de (91) illo reminisci.</p>
+  						<p>{31} Contra conclusionem arguo sic: si intellectus, voluntas, memoria adequarentur, sequeretur quod essent equales; hoc falsum.</p>
+  						<p>{31.1} Probatur: non distinguuntur (92) realiter, igitur non sunt equales.</p>
+  						<p>{31.1.1} Patet consequentia per Hillarium, 3 De trinitate, et per Magistrum libro primo, distinctione 31, ubi dicit quod equalitas et similitudo non sunt nisi ubi est (93) distinctio realis.</p>
+  						<p>{32} Secundo arguitur sic: actus <supplied>malus</supplied>malus vel peccatum potest cognosci, et tamen a beato non potest diligi, quia tunc posset peccare, igitur non quidquid potest intellectus viatoris vel beati intelligere, potest eius voluntas velle.</p>
+  							<p>{33} Ad primum</p>
+  							<p>{33.1} dico primo propositionem istam, quod non est concedendum, de virtute et proprietate sermonis, quod intellectus, voluntas, memoria eiusdem adequantur vel sint equales, quia oporteret quod realiter distinguerentur, sicut arguitur in argumento.</p>
+  							<p>{33.2} Dico secundo, quod sic illa potest concedi, etiam de virtute sermonis: intellectus est equaliter potens intelligere aliquod obiectum et voluntas potens velle illud etcetera.</p>
+  							<p>{33.3} Dico tertio, quod improprie loquendo potest ista (94) concedi: voluntas et intellectus etcetera sunt equales vel adequantur, eo modo quo in conclusione fuit dictum.</p>
+  							<p>{34} Ex hiis patet ad argumentum quid dicendum.</p>
+  							<p>{35} Ad secundum (95)</p>
+  							<p>{35.1} dico primo, quod actus malus vel peccatum, si sit aliquid, ubi fuit cognitum a beato potest ab eodem diligi.</p>
+  							<p>{35.2} Dico secundo, quod possibile beatum cognoscere aliquem peccare vel quod aliquis homo peccet, sed non possibile per quamcumque potentiam beatum velle male aliquem peccare vel quod aliquis peccet, quia tunc esset possibile quod beatus peccaret.</p>
+  							<p>{35.3} Tertia: beatus de potentia Dei absoluta posset peccare et velle male quod aliquis peccaret.</p>
+  							<p>{35.4} Quarta, quod beatus non potest de potentia Dei ordinata velle male quod aliquis peccet vel aliquem (96) peccare.</p>
+  							<p>{36} Ex hiis ad formam argumenti (97) patet qualiter respondendum est; ad minorem (98) iuxta propositiones quattuor predictas.</p>
+  							<p>{37} Quinta conclusio est ista: intellectus, memoria, voluntas (99) non sic adequantur in viatore, quod quam facile sit aliquid diligibile intelligere tam facile sit illud velle vel de illo reminisci et e contra, sed bene (100) in beato.</p>
+  							<p>{38} Ista conclusio</p>
+  							<p>{38.1} quantum ad primam partem, patet per beatum Augustinum, 10 De trinitate, capitulo 68, ubi dicit quod memoria, intelligentia et voluntas in via aliquando sunt inequales, quia videmus in aliquo maiorem memoriam quam intelligentiam et e contra in aliquo (101), et in aliquo duo hec amore magis superari.</p>
+  							<p>{38.2} Item Augustinus, secundum istum modum loquens, 10 De trinitate, capitulo 26, dicit quod in hiis tribus memoria, intelligentia et voluntate solent inspici ingenia parvulorum cuius<supplied>modi</supplied> preferatur indoles, (102) quanto enim tenacius et facilius puer meminit quanto altius intelligit et (103) studet ardentius tanto est laudabilior /T57rb/ ingenii, et hoc accidit eis ex diversa dispositione corporum et diversa dispositione virtutum sensitivarum in bonitate comprehensionis ac debilitate.</p>
+  							<p>	{38.3} Quantum autem ad secundam partem, patet conclusio per Augustinum, ubi supra 18 De trinitate, capitulo 68, dicentem quod memoria, intelligentia et (104) voluntas in patria erunt equales et ab omni languore (105) sanate, id est in nullo erit mens impedita ab aliquo istorum actuum, sed erit in completa (106) indispositione naturali; patet igitur conclusio.</p>
+  							<p>	{39} Secundo patet ista conclusio, quoad primam partem /C59ra/, per beatum Augustinum, 15 De trinitate, capitulo 68, ubi ait quod de tribus istis aliquando a singulis bina et a singulis singula maioribus minora vincuntur; vult dicere quod aliqui habent magis (107) intellectum potentem intelligere quam memoriam potentem reminisci, et hoc est propter dispositiones corporum diversas, ut predixi.</p>
+  								<p>{40} Contra conclusionem istam arguitur primo sic: nullum intelligere est facilius quam intelligere.</p>
+  								<p>{40.1} Ista patet, quia li "quam" confundit terminum sequentem, sed quodlibet reminisci vel memorari est quoddam (108) intelligere, igitur (109) nullum reminisci est facilius quam intelligere.</p>
+  								<p>{40.1.1} Minor patet, quia reminisci est obiectum apprehendere quod prius apprehendebatur.</p>
+  								<p>{41} Secundo arguitur contra secundam partem conclusionis et hoc sic: creatura rationalis que, (110) iuvamento aliquo non habito, potest aliquid ita faciliter diligere sicut potest illud intelligere, potest, habito illo iuvamento, facilius illud velle quam intelligere, sed (111) mens hominis, etiam si non haberet caritatem videns Deum clare, posset ita faciliter Deum diligere sicut posset Deum intelligere, et caritas est iuvamentum inclinans eam ad dilectionem Dei; igitur, habita caritate, posset facilius diligere Deum quam Deum intelligere, cum ergo caritas non excidat in patria, secundum Apostolum li***vo (112) magis perficiatur, sequitur quod facilius sit beato Deum diligere quam Deum cognoscere (113).</p>
+  								<p>{42} Ad primum dico, quod intelligere quantum ad propositum spectat capi potest dupliciter.</p>
+  								<p>{42.1} Uno modo, pro cognitione que habetur de obiecto, obiecto ad ipsum concurrente et non solum (114) anima cum habitu, et isto modo capiendo intelligere, intelligere distinguitur contra reminisci, quia actus memorandi causatur ab anima cum habitu.</p>
+  								<p>{42.2} Alio modo (115), capi potest pro quocumque actu cognitivo (116) et sic reminisci non distinguitur contra intelligere. Alio modo potest dici quod reminisci vocatur ibi (117) non intelligere in actu sed in habitu, modo frequenter contingit quod aliqui pro tarditate sui ingenii difficilius intelligent unam veritatem, qua tamen cognita causabitur in eis habitus fortior quam in aliis ex multis actionibus; et sic patet quid sit dicendum ad argumentum.</p>
+  								<p>{43} Ad secundum (118)</p>
+  								<p>{43.1} dico primo, quod beato et (119) non beato videnti aliunde non impedito non esset facilius Deum diligere quam intelligere, vel e converso.</p>
+  								<p>{43.2} Dico secundo, quod posset ymaginari talis gradus dilectionis quo difficilius esset ipsum diligere quam a gradu intellectionis intelligere.</p>
+  								<p>{43.3} Dico tertio, quod etiam (120) e converso posset ymaginari aliquis gradus cognitionis quo difficilius esset ipsum intelligere quam a gradu dilectionis diligere.</p>
+  								<p>{43.4} Dico quarto, quod sine /T57va/ iuvamine speciali non posset anima beata cognoscere Deum cognitione ita perfecta sicut visio beatifica.</p>
+  								<p>{43.5} Dico quinto, quod anima cum visione (121) etiam habita sine (122) speciali adiutorio non sufficerent ad fruitionem causandam ita perfectam sicut est fruitio beatifica.</p>
+  								<p>{43.6} Dico sexto, quod anima Deo sibi presentato cum influentia Dei generali (123) sufficeret forsan causare aliquam visionem et sine quocumque caritatis habitu etiam unam dilectionem Dei, sed illa visio et illa fruitio forent minus perfecte quam sint ille que nunc habeantur ab aliquo beato.</p>
+  								<p>{44} Ex hiis, ad formam nego maiorem, sed sufficit quod illo iuvamento habito posset aliquo gradu maioris dilectionis illud diligere quam primo poterat; patet per exemplum, si enim cum aliquo (124) modico lumine ego sufficiam videre aliquod (125) obiectum, licet non ita perfecte, non oportet quod si lumen intendatur ego sufficiam facilius illud videre, sed sufficit quod ego sufficiam perfectius illud videre (126).</p>
+  								<p>{45} Sexta conclusio est ista (127), quod intellectus, voluntas et (128) memoria non sic adequantur in viatore quod quam intenso actu aliquid diligibile cognoscitur tam intenso actu diligatur et e converso, nec forsan in beato.</p>
+  								<p>{46} Probatur primo de viatore (129) sic:</p>
+  								<p>{46.1} aliquid potest a viatore cognosci et non diligi sed odiri, igitur (130) non sic adequantur etcetera.</p>
+  								<p>{46.2} Secundo probatur eadem pars, quia actus dilectionis in casu intenditur ubi cognitio manet eadem, sicut patet de dilectione Dei que est super omnia, non /C59rb/ tamen eius cognitio est super omnia, et similiter cognitio intenditur ubi amor remittitur, igitur non sic adequantur etcetera.</p>
+  								<p>{47} De beato quantum ad secundam partem</p>
+  								<p>{47.1} patet, quia beatus eque intenso actu cognitionis potest cognoscere aliquem beatum et aliquem dampnatum, quia forsan eodem actu et tamen non equali actu dilectionis diligit utrumque, immo beatum plus diligit quam dampnatum, similiter se ipsum et Deum et tamen plus diligit Deum.</p>
+  								<p>{47.2} Secundo, quia cognoscat beatus equaliter Petrum et Linum, et sciat quod Petrus est magis (131) diligendus quam Linus, et tunc ipse (132) plus diliget Petrum quam Linum, igitur non sic adequantur in beato intellectus et voluntas etcetera.</p>
+  								<p>{48} Contra conclusionem arguo (133) sic primo (134): eodem actu cognoscit beatus Deum et creaturam et (135) dampnatum et beatum, igitur eodem actu diligit Deum et (136) creaturam, et per consequens non intensiori actu diligit unum quam aliud, et per consequens non intensius.</p>
+  								<p>{49} Secundo sic: illud ab aliquo diligitur actu intensiori, a cuius dilectione difficilius evelleretur, sed beatus a dilectione sui difficilius evelleretur quam a dilectione Dei, igitur intensiori actu vel intensius diligit se ipsum quam Deum cuius oppositum dictum est arguendo.</p>
+  								<p>{50} Pro solutionibus istorum argumentorum, premitto distinctionem unam, quod diligere unam rem plus quam aliam potest quadrupliciter intelligi.</p>
+  								<p>{50.1} Uno modo, quia uni desideratur maius (137) bonum quam alteri.</p>
+  								<p>{50.2} Secundo modo, dicitur aliquis magis unam rem diligere quam aliam sic quod, si deberet vel (138) posset eligere dimittere amorem alterius illorum, citius eligeret di /T57vb/ mittere amorem alterius quam illius.</p>
+  								<p>{50.3} Tertio modo, dicitur aliquis magis unam rem diligere quam aliam, quia illam firmius amat, ita quod difficilius posset avelli ab amore illius quam alterius.</p>
+  								<p>{50.4} Quarto modo, dicitur aliquis magis unam rem diligere (139) quam aliam, quia eam intensiori actu diligit quam aliam.</p>
+  								<p>{51} Hac distinctione premissa pono propositiones.</p>
+  								<p>{51.1} Prima est: quilibet beatus (140) meliorem se quem (141) scit esse meliorem se magis <supplied>diligit</supplied> quam se ipsum sic quod sibi optat maius bonum formale quam sibi ipsi.</p>
+  									<p>{51.2} Secunda: quilibet beatus meliorem se magis se ipso diligit isto modo solum finite.</p>
+  									<p>{51.3} Tertia: quilibet beatus Deum magis se ipso diligit infinite, sic quod Deo optat magis bonum formaliter quam sibi (142) vel alteri beato.</p>
+  									<p>{51.4} Quarta: quilibet viator tenetur isto modo diligere Deum magis quam se ipsum infinite, sicut et quilibet beatus.</p>
+  									<p>{51.5} Quinta: non quilibet (143) beatus (144) tenetur isto modo magis diligere Deum meliorem (145) se quam se ipsum vel quam alium quem credit esse minus bonum.</p>
+  									<p>{51.6} Sexta: quilibet beatus diligit Deum infinite plus quam se ipsum, sic quod citius vellet (146) eligere dimittere amorem sui et cuiuscumque alterius quam Dei.</p>
+  									<p>{51.7} Septima, quod ad hec tenetur quilibet viator, licet non semper hoc (147) faciat.</p>
+  									<p>{51.8} Octava, quod nihil aliud a Deo diligit beatus isto modo plus (148) quam se ipsum nec aliquid (149) tenetur viator isto modo (150) plus diligere quam se ipsum.</p>
+  									<p>{51.9} Nona: nullus nec viator nec beatus diligit vel (151) tenetur diligere nec Deum nec aliquid aliud plus <supplied>quam</supplied> se, sic quod citius posset evelli a dilectione alterius quam sui; immo difficilius posset evelli a dilectione sui quam alicuius alterius.</p>
+  										<p>{51.10} Decima: non semper viator nec actu nec habitu tenetur diligere Deum vel meliorem se actu intensiori vel habitu intensiori quam se ipsum vel aliud a se ipso, sed in casu tenetur ad hoc.</p>
+  										<p>{51.11} Undecima: actu maioris intensionis potest aliquis magis diligi aliquo predictorum trium modorum quam aliud actu maioris intensionis, et quandoque e converso.</p>
+  										<p>{51.12} Duodecima: si eadem dilectione diligat beatus Deum /C59va/ et creaturam, ipse non diligit Deum intensiori actu quam creaturam, licet bene illo eodem actu magis diligat Deum quam creaturam (152) aliquo predictorum modorum si vero alio, et alio actu (153) tunc (154) intensiori actu diligit Deum quam creaturam, secus est de viatore.</p>
+  										<p>{52} Ex istis (155) ad primum argumentum concedo conclusionem primam, ubi diligit eodem actu (156), sed nego consequentiam ulterius "igitur non intensius".</p>
+  										<p>{53} Ad secundum: maior non est semper vera, immo quandoque illud quod intensiori actu (157) diligitur minus aliquo predictorum modorum vel aliquibus eorum magis diligi quam aliud et alio predictorum modorum vel aliis minus diligi quam aliud.</p>
+  										<p>{54} Ad argumentum (158) principale cum dicitur (159) "in illo est vestigium trinitatis" etcetera, patet quod hoc non est necessarium, sed quid sit requirendum (160) patuit in prosecutione prime conclusionis; cum dicitur (161) quod non est (162) ymago, quia hoc esset in ipsa mente, concedo; et quando probatur quod non, per auctoritatem beati Augustini, patet quid sit dicendum et qualiter debet auctoritas intelligi per solutionem /T58ra/ que data est ad secundum argumentum contra tertiam conclusionem. Hec de ista questione.</p>
+  		</div>
+  	</body>
+  </text>
+</TEI>
